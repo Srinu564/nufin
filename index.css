@@ -1,0 +1,278 @@
+.nufin-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'arial';
+    width: 100vw;
+}
+.line{
+    color: #483285;
+   width: 100%;
+}
+.nufin-navbar-container{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nufin-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nufin-plans-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.nufin-plan-features-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+.nufin-plans-heading{
+    color: #483285;
+    font-size: 50px;
+    font-style: 'normal';
+    font-weight: bold;
+    
+}
+.nufin-plans-information{
+    font-weight: bold;
+    font-size: 20px;
+    color: #86838B;
+}
+.nufin-features-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;  
+  
+}
+.nufin-unordered-features-container{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nufin-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    color: #B5B4B8;
+    font-size: 15px;  
+}
+.list-text{
+    margin-left: 10px;
+}
+.nufin-plan-price-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 90px 0px 50px 100px;
+}
+
+.price-container{
+    border: 1px solid #483285;
+    border-radius: 10px;
+    height: 280px;
+    width: 350px;
+    
+    box-shadow:-8px 5px 18px 0px #86838B;
+    background-color: #483285;
+}
+.price-container-top-card{
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+
+}
+.price-container-top-card-heading{
+    font-size: 20px;
+  color: white;
+}
+.select-info{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+}
+.price-container-bottom-card{
+    background-color: white;
+    height: 230px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.price-container-bottom-card-heading{
+    color: #483285;
+    font-size: 50px;
+}
+.price-container-bottom-card-span{
+    font-size: 40px;
+}
+.price-card-button{
+    background-color: #483285;
+    color: #02FFFF;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.price-card-button:hover{
+    
+    box-shadow: -1px 1px 0px 5px #02FFFF;
+}
+
+.slider{
+    width: 100%;
+}
+
+.additional-features-link{
+    color: #86838B;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.arrow-container{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.arrow-image{
+    align-self: center;
+}
+.help-container{
+    margin:30px;
+    background-color: #ECE9F1;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.help-container-heading{
+    color: #483285;
+    font-size: 30px;
+    font-weight: bold;
+}
+.help-container-paragraph{
+    color: #86838B;
+    font-size: 12px;
+    text-align: center;
+}
+.help-button{
+    background-color: #483285;
+    color: #02FFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 130px;
+    font-size: 12px;
+}
+.help-button:hover{
+    
+    box-shadow: -1px 1px 0px 5px #02FFFF;
+}
+.trail-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+.trail-container-heading{
+    color: #483285;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.free-trail-button{
+    background-color: #483285;
+    color: #02FFFF;
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.free-trail-button:hover{
+    
+    box-shadow: -1px -1px 0px 5px #02FFFF;
+}
+.base-plan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.plan-line{
+    width: 100%;
+    color: #ECE9F1;
+}
+.additional-plan-features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90%;
+}
+.additional-plan-features:hover{
+    color:  #483285;
+}
+.additional-plan-button{
+    border: none;
+    background-color: transparent;
+}
+.additional-plan-heading{
+    font-size: 20px;
+    color: #86838B;
+}
+.sales-container{
+    display: flex;
+    align-items: center;
+    background-color: #483285;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.sales-container-button{
+    border: none;
+    background-color: #02FFFF;
+    color: #483285;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+}
+.sales-container-button:hover{
+    
+    box-shadow: -1px 1px 0px 5px white;
+}
+.sales-container-heading{
+    font-size: 30px;
+    color: white;
+}
